@@ -500,6 +500,12 @@
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
+  }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
+  }
   .w-9 {
     width: calc(var(--spacing) * 9);
   }
@@ -855,6 +861,12 @@
     background-color: color-mix(in srgb, #211b15 60%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-ink-2) 60%, transparent);
+    }
+  }
+  .bg-ink-2\/70 {
+    background-color: color-mix(in srgb, #211b15 70%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-ink-2) 70%, transparent);
     }
   }
   .bg-ink-2\/80 {
